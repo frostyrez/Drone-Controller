@@ -1,5 +1,5 @@
 # Drone-Controller
-For my Masters Final Year Project at the University of Bath, I obtained a 75% (First) for the design of a robust non-linear Multiple-MPC-based controller to achieve the goal and title of the project, “Predictive Control of Autonomous Quadcopters”. 
+For my Masters Final Year Project at the University of Bath, I obtained a 75% (First) for the design of a robust non-linear Multiple-MPC-based controller to achieve the goal and title of the project, “Predictive Control of Autonomous Quadcopters”. See Report for a full breakdown, or below for a brief outline of the work carried out.
 
 This began with the derivation of a mathematical model of a standard quadcopter, comprising 16 states, 3 coordinate frames, and the equations relating them. State derivatives, forces and torques were then established, with the physical properties of the DJI F450 representing the quadcopter. 
 
