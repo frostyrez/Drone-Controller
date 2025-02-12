@@ -1,5 +1,5 @@
 # Drone-Controller
-For my Masters Final Year Project at the University of Bath, I obtained a 75% (First) for the design of a robust non-linear Multiple-MPC-based controller to achieve the goal and title of the project, “Predictive Control of Autonomous Quadcopters”. See Report for a full breakdown, or below for a brief outline of the work carried out.
+For my Masters Final Year Project at the University of Bath, I obtained a **75% (First)** for the design of a robust non-linear Multiple-MPC-based controller to achieve the goal and title of the project, “Predictive Control of Autonomous Quadcopters”. **See Report for a full breakdown**, or below for a brief outline of the work carried out.
 
 This began with the derivation of a mathematical model of a standard quadcopter, comprising 16 states, 3 coordinate frames, and the equations relating them. State derivatives, forces and torques were then established, with the physical properties of the DJI F450 representing the quadcopter. 
 
@@ -14,3 +14,5 @@ The gains in the controllers were then individually tuned to optimise performanc
 ![image](https://github.com/user-attachments/assets/4b1e1eb3-6200-4046-833a-18bcc97757e9)
 
 These controllers were then evaluated against a fully-tuned linear MPC, which leverages control and prediction horizons to optimize its inputs. This results in even better performance than LQR, albeit at the cost of increased computational time.
+
+Finally, both non-linear and multiple MPC controllers are designed and programmed, leading to vastly increased computational time with a marginal performance benefit (see Section 4.4 and 4.5). Further work could be undertaken to optimise and streamline the non-linear model.
